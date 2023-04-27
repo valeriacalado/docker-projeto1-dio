@@ -6,4 +6,4 @@ services:
     ports:
     - '80:80'
     volumes:
-    - ./meuwebsite:/usr/local/apache2/htdocs
+    - /home/valeria/docker-projeto1-dio/meuwebsite:/usr/local/apache2/htdocs
